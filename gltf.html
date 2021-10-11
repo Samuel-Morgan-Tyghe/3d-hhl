@@ -59,7 +59,7 @@
 		light.power = 6640;  // GE Lumens @ 60W incade.
 		light.decay = 2;
 		light.distance = Infinity;
-		light.position.set(0, 2, 0);
+		light.position.set(0, 1.5, 0);
 		light.castShadow = true;
 		light.shadowCameraVisible = true;
 		scene.add(light);
@@ -71,7 +71,7 @@
 
 		// Instantiate a loader
 		var loader = new THREE.GLTFLoader();
-		loader.load('cube.glb', handle_load);
+		loader.load('scene2.glb', handle_load);
 
 		var mesh;
 
